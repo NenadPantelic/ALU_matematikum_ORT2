@@ -1,32 +1,32 @@
 #!/bin/bash
 
-prvaporuka="$(djtgcfg enum)"                                            #Покреће прву наредбу и чува њен садржај. 
-if [ "$prvaporuka" == "No devices found" ]; then                        #Провера да ли је плоча прикључена
-	echo "Проверите да ли је плоча укључена или повезана."
+msg="$(djtgcfg enum)"                                            #Start first instruction and saves it 
+if [ "$msg" == "No devices found" ]; then                        #Check if device is plugged and turned on
+	echo "Check if your device is turned on."
 else
-	out=${prvaporuka#*Device:}
-	out=(${out[0]})                                                     #Узима се име плоче
+	out=${msg#*Device:}
+	out=(${out[0]})                                                     #Device name
 
-	inicijalizacija="$(djtgcfg init -d  ${out})"                        #Покреће другу наредбу
-	inicijalizacija=${inicijalizacija#*}
-	inicijalizacija=(${inicijalizacija[0]})
-	if [ "$inicijalizacija" == "Initializing" ]; then                   #Проверава да ли је дошло до грешке у иницијализацији
-		bitfile=(`find ./ -maxdepth 1 -name "*.bit"`)                   #Тражи .bit дадотеке
-		if [ ${#bitfile[@]} == 1 ]; then                                #Проверава да ли постоји тачно једна .bit дадотека
-			djtgcfg prog -d ${out} -i 0 -f ${bitfile[0]#*/.}            #Покреће програмирање за ту једну .bit дадотеку
+	initial="$(djtgcfg init -d  ${out})"                        #Second instruction
+	initial=${initial#*}
+	initial=(${initial[0]})
+	if [ "$initial" == "Initializing" ]; then                   #Checks init errosПроверава да ли је дошло до грешке у иницијализацији
+		bitfile=(`find ./ -maxdepth 1 -name "*.bit"`)                   #Search for .bit files
+		if [ ${#bitfile[@]} == 1 ]; then                                #only one .bit file?
+			djtgcfg prog -d ${out} -i 0 -f ${bitfile[0]#*/.}            #Start programming of that .bit fileПокреће програмирање за ту једну .bit дадотеку
 		else
-			echo "Унесите локацију и име .bit датотеке: "
-			read lokacija                                               #Чита унету локацију
-			temp="${lokacija%\'}"
-			temp="${temp#\'}"                                           #Решава проблем са наводницима
+			echo "Type location and name of .bit file: "
+			read location                                              #Reads path
+			temp="${location%\'}"
+			temp="${temp#\'}"                                           #Solves problems with quotation marks
 
-			djtgcfg prog -d ${out} -i 0 -f ${temp}	                    #Покреће програмирање за дату адресу
+			djtgcfg prog -d ${out} -i 0 -f ${temp}	                    #Start programming
 
 		fi
 	else
-		echo "Грешка у иницијализацији плоче. Проверите назив и покушајте ручну иницијализацију са наредбама: "
+		echo "Init error. Check typing, names and try manaul initialization with: "
 		echo "djtgcfg enum"
-		echo "djtgcfg init -d  Назив_уређаја"
-		echo "djtgcfg prog -d Назив_уређаја -i 0 -f локација.bit"	
+		echo "djtgcfg init -d  Device name"
+		echo "djtgcfg prog -d Device name -i 0 -f location.bit"	
 	fi
 fi
