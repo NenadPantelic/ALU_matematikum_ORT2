@@ -10,10 +10,10 @@ else
 	initial="$(djtgcfg init -d  ${out})"                        #Second instruction
 	initial=${initial#*}
 	initial=(${initial[0]})
-	if [ "$initial" == "Initializing" ]; then                   #Checks init errosПроверава да ли је дошло до грешке у иницијализацији
+	if [ "$initial" == "Initializing" ]; then                   #Checks init errors
 		bitfile=(`find ./ -maxdepth 1 -name "*.bit"`)                   #Search for .bit files
 		if [ ${#bitfile[@]} == 1 ]; then                                #only one .bit file?
-			djtgcfg prog -d ${out} -i 0 -f ${bitfile[0]#*/.}            #Start programming of that .bit fileПокреће програмирање за ту једну .bit дадотеку
+			djtgcfg prog -d ${out} -i 0 -f ${bitfile[0]#*/.}            #Start programming of that .bit file
 		else
 			echo "Type location and name of .bit file: "
 			read location                                              #Reads path
