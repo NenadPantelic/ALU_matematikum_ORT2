@@ -15,7 +15,7 @@ Note: this project was made and tested with Web Pack of ISE software and Spartan
 
 <pre># Clone this repository
 $ git clone https://github.com/NenadPantelic/ALU_matematikum_ORT2
-<p># Open it via ISE Design suit if you want to change some things or see source code and implementation
+<p># Open it via ISE Design suite if you want to change some things or check source code and implementation
 
 <p># run deviceProgramming.sh for Linux or use Adept programming suite on Windows
 $ ./deviceProgramming </p>
