@@ -1,0 +1,35 @@
+# Pin assignment for pushbutton switches
+
+NET"add" LOC = "G18";
+NET "add" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "sub" LOC = "H18";
+NET "sub" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "revert" LOC = "K18";
+NET "revert" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button<0>" LOC = "B18"; #BTN2
+NET "button<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button<1>" LOC = "D18"; #BTN2
+NET "button<1>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button<2>" LOC = "E18"; #BTN2
+NET "button<2>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button<3>" LOC = "H13"; #BTN2
+NET "button<3>" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+
+# Pin assignment for 7-segment displays
+NET "segment<0>" LOC = "L18" ;
+NET "segment<1>" LOC = "F18" ;
+NET "segment<2>" LOC = "D17" ;
+NET "segment<3>" LOC = "D16" ;
+NET "segment<4>" LOC = "G14" ;
+NET "segment<5>" LOC = "J17" ;
+NET "segment<6>" LOC = "H14" ;
+
+NET "an<3>" LOC = "F15"; 
+NET "an<2>" LOC = "C18"; 
+NET "an<1>" LOC = "H17";//"H17"; 
+NET "an<0>" LOC = "F17";//"F17"; 
+
+# Pin assignment for clock
+NET "clk" LOC = "B8"; 

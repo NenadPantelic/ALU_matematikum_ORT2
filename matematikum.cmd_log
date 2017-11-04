@@ -1,0 +1,492 @@
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 
+xst -intstyle ise -ifn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.xst" -ofn "/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc inout.ucf -p xc3s1200e-fg320-4 matematikum.ngc matematikum.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o matematikum_map.ncd matematikum.ngd matematikum.pcf 
+par -w -intstyle ise -ol high -t 1 matematikum_map.ncd matematikum.ncd matematikum.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml matematikum.twx matematikum.ncd -o matematikum.twr matematikum.pcf -ucf inout.ucf 
+bitgen -intstyle ise -f matematikum.ut matematikum.ncd 

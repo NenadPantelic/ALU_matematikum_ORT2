@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.ncd
+OUTFILE=/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum/matematikum.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=/home/nenadsi/Downloads/ORT2/KOLOKVIJUM_2/PROJEKAT/matematikum
+LICENSE=WebPack
+USER_INFO=211167747_0_0_675

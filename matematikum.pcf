@@ -1,0 +1,45 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 09 20:26:47 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "segment<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "segment<1>" LOCATE = SITE "F18" LEVEL 1;
+COMP "segment<2>" LOCATE = SITE "D17" LEVEL 1;
+COMP "button<0>" LOCATE = SITE "B18" LEVEL 1;
+PIN button<0>_pin<0> = BEL "button<0>" PINNAME PAD;
+PIN "button<0>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "segment<3>" LOCATE = SITE "D16" LEVEL 1;
+COMP "button<1>" LOCATE = SITE "D18" LEVEL 1;
+PIN button<1>_pin<0> = BEL "button<1>" PINNAME PAD;
+PIN "button<1>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "segment<4>" LOCATE = SITE "G14" LEVEL 1;
+COMP "button<2>" LOCATE = SITE "E18" LEVEL 1;
+PIN button<2>_pin<0> = BEL "button<2>" PINNAME PAD;
+PIN "button<2>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "segment<5>" LOCATE = SITE "J17" LEVEL 1;
+COMP "button<3>" LOCATE = SITE "H13" LEVEL 1;
+PIN button<3>_pin<0> = BEL "button<3>" PINNAME PAD;
+PIN "button<3>_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "segment<6>" LOCATE = SITE "H14" LEVEL 1;
+COMP "add" LOCATE = SITE "G18" LEVEL 1;
+PIN add_pin<0> = BEL "add" PINNAME PAD;
+PIN "add_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "sub" LOCATE = SITE "H18" LEVEL 1;
+PIN sub_pin<0> = BEL "sub" PINNAME PAD;
+PIN "sub_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "revert" LOCATE = SITE "K18" LEVEL 1;
+PIN revert_pin<0> = BEL "revert" PINNAME PAD;
+PIN "revert_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button_2_BUFGP/IBUFG" BEL "button_2_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "button_3_BUFGP/IBUFG" BEL "button_3_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "button_0_BUFGP/IBUFG" BEL "button_0_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "button_1_BUFGP/IBUFG" BEL "button_1_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
